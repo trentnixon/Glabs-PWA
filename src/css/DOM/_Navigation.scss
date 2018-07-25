@@ -1,0 +1,9 @@
+ 
+.NavLink{
+    display: flex;
+    @include FONT(.9em,1em,100, 0) ; 
+
+    .material-icons{
+        color: $SecondaryColor;
+    }
+}

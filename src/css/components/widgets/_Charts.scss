@@ -1,0 +1,35 @@
+.ChartSlider{
+
+    padding: 20px 0 50px;
+
+    .slick-slider{
+
+        button.slick-arrow{ display: none !important;}
+    
+    
+        .slick-dots{
+    
+        }
+        .slick-dots li button:before{ font-size: 15px;}
+        .slick-list{
+            .slick-track{
+    
+                .slick-slide{
+                    text-align: center;
+                    img{ display: inline-block; }
+                    h3{@include FONT($FontMedSize,$FontLargeLine,$FontLargeWeight,0 20px 20px 0) ;  text-align: right;}
+                    p{ @include FONT($FontSmallSize,$FontSmallLine,$FontSmallWeight,0 0% 10px 0) ;  }
+                }
+            }   
+        }
+    }
+
+
+
+    // Tooltips
+    .recharts-default-tooltip{
+        background-color: transparent !important;
+        border: unset !important;
+    }
+}
+

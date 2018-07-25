@@ -1,0 +1,26 @@
+.card-container{
+    .side-front [class^=col-xs]:first-of-type {
+            padding-left: 0;
+        }
+
+    .side-front{
+            background-color:$SecondaryColor;
+            h2{ 
+                   
+                    text-align: center;
+                    padding-top: 2.7em;
+            }
+            h3{ 
+               
+                    text-align: center; 
+            }
+            p{ 
+           
+            }
+
+            .Side-Content{
+              
+            }
+        }
+}
+  

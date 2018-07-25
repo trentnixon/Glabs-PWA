@@ -1,0 +1,101 @@
+
+
+// Use of  Mixin to color the buttons
+// Add new buttons to the list as required
+
+button{-webkit-appearance:initial}
+/**
+  Call to Action Button
+*/
+.Button_Action_CTA{
+  @include BTN($PrimaryColor,$SecondaryColor,$PrimaryColor) ;
+}
+.Button_Action_CTA:hover{
+  @include BTN($TertiaryColor,$SecondaryColor,$TertiaryColor) ;
+}
+
+/*
+// FLIP Button
+*/
+.Button_Action_FlipMe{
+  @include BTN($Quaternary,$Quinary,$Quaternary) ;
+  
+ 
+    position: relative;
+    top: -50%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    border: 1px solid $Quaternary;
+    width: 80%;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 30px;
+
+  i{
+    transition: transform .3s;
+    font-size: 40px;
+  }
+
+}
+.Button_Action_FlipMe:hover{
+  @include BTN($TertiaryColor,$Quinary,$SecondaryColor) ;
+    i{
+      @include ROTATEBTN(180deg);
+      transition: transform .3s;
+    }
+  
+   
+}
+
+/* Open or Close All Cards btn, Located top of the page */
+.OpenAll{
+  float: right;
+  margin: 10px 0;
+  @include BTN($PrimaryColor,$TertiaryColor,$TertiaryColor) ;
+  transition: transform 1s;
+} 
+.OpenAll:hover{ 
+  @include BTN($TertiaryColor,$PrimaryColor,$PrimaryColor) ;
+  @include ROTATEBTN(180deg);
+  transition: transform 1s;
+}
+
+
+/**
+
+  Set Btn Styles for the Back side of the card
+
+*/
+
+.side-back{
+  // FLIP Button
+  .Button_Action_FlipMe{
+    @include BTN($Quaternary,$Quinary,$Quaternary) ;
+    i{
+      transition: transform .3s;
+    }
+
+  }
+  .Button_Action_FlipMe:hover{
+    
+    @include BTN($PrimaryColor, $Quinary,$PrimaryColor) ;
+    
+    i{
+      @include ROTATEBTN(180deg);
+    transition: transform .3s;
+    }
+  }
+  
+  // CTA BUTTON
+  .Button_Action_CTA{
+    @include BTN($TertiaryColor,$Quinary,$TertiaryColor) ;
+  }
+  .Button_Action_CTA:hover{
+    @include BTN($PrimaryColor,$Quinary,$TertiaryColor) ;
+  }
+
+
+}

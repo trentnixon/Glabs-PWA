@@ -1,0 +1,24 @@
+.card-container{
+    .side-back{
+                background-color: $PrimaryColor; 
+                z-index: 2;
+                padding: 20px 5px;
+              
+            .Side-Content{ 
+                    background-color: $PrimaryColor;
+                }
+            h1{ color: $SecondaryColor; }
+            h2{ 
+                    color: $TertiaryColor; 
+                    padding: 10px 0 5px 0;
+                    display: none;
+            }
+            h3{ color: $SecondaryColor; 
+                padding: 0 0 20px 0 ;
+                display: none;}
+                
+            p{ 
+                    color: $SecondaryColor; 
+                }
+        }
+}

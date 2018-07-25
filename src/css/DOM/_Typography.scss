@@ -1,0 +1,24 @@
+h1{
+    @include FONT($FontLargeSize,$FontLargeLine,400, 0 0 20px 0 ) ; 
+}
+
+h2{
+    @include FONT($FontLargeSize,$FontLargeLine,400, 0 0 20px 0 ) ; 
+}
+
+h3{
+    @include FONT($FontMedSize,$FontMedLine,400, 0 0 20px 0 ) ; 
+}
+
+h4{
+    @include FONT($FontMedSize,$FontMedLine,400, 0 0 20px 0 ) ; 
+}
+
+
+p{
+    @include FONT($FontSmallSize,$FontSmallLine,400, 0 0 20px 0 ) ; 
+}
+
+.text-right{ text-align: right;}
+.text-left{ text-align: left;}
+.text-center{ text-align: center;}

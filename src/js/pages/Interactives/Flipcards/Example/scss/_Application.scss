@@ -1,0 +1,22 @@
+
+/************ 
+** Application Variables
+*************/
+
+// Import Application Elements
+
+  
+@import "./_Application_Variables.scss"; 
+@import "./_Application_Mixins.scss";
+
+#FlipCard{  
+  // Parent Container    
+      @include BMP(transparent,0,0%) ;
+  
+      // Card Frames
+      @import "./_Card_Frame.scss";
+      @import "./_Card_Inner.scss";
+      @import "./_Card_Flip.scss";
+      @import "./_Card_Media.scss";
+      @import "./_Card_btns.scss";
+    }

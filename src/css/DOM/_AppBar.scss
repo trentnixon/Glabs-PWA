@@ -1,0 +1,13 @@
+#GlabsAppBar{
+    header{
+        background-color: $TertiaryColor;
+        color:$SecondaryColor;
+        text-transform: uppercase;
+    }
+
+    div[class^="MuiDrawer-docked-"], div[class*=" MuiDrawer-docked-"] {
+        div{
+         background-color:$Quaternary; 
+        }
+    }
+}

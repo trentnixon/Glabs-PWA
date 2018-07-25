@@ -1,0 +1,33 @@
+
+/* UPDATED FLIP : Works in Safari */
+
+  .card-container{
+    perspective: 1000px;
+  
+      .card-body {
+        
+          transition: 1.2s;
+          transform-style: preserve-3d;
+          position: relative;
+
+        .card-side {  backface-visibility: hidden; }
+
+        .side-front{
+          z-index: 2;
+          /* for firefox 31 */
+          transform: rotateY(0deg);
+        }
+        .side-back{
+          transform: rotateY(180deg);
+        }
+    }
+  }
+  
+
+  .card-container.back
+        { 
+          .card-body {
+            transform: rotateY(180deg);
+                .side-front {}
+          }
+    }

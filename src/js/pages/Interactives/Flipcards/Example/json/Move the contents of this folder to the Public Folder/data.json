@@ -1,0 +1,27 @@
+{
+ "data":"Json[LOAD] Completed",
+ "ProjectHeader":"Glabs React - Atom Template",
+ "ProjectSubHeader":"Glabs React - Atom Template Sub Header",
+ "ProjectCopy":"Glabs React - Atom Template - Project Copy",
+ "ProjectURL":"https://www.mini.com.au/connected/",
+ "ProjectLogo":"Client-Logo.png",
+ "ProjectSponsor":"Glabs",
+ "ProjectSocial":{
+     "ShareUrl":"https://www.google.com",
+     "ShareHeader":"Share This Page",
+     "ShareCopy":"This is a test of the Social FaceWall buttons",
+     "ShareImage":"",
+     "ShareThumb":""
+ },
+ "BodyCopy":[
+    {
+         "type":"h2",
+         "copy":["Glabs H2"]
+    },{
+         "type":"h3",
+         "copy":["Glabs H3"]
+    },{
+         "type":"p",
+         "copy":["Glabs Paragraph"] }
+ ]
+}

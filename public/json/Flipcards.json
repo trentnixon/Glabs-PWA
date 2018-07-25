@@ -1,0 +1,63 @@
+{
+    "Cards":[
+        {
+            "front":{
+               "bgImage":"/assets/images/Card_Background.jpg",
+               "banner":{
+                   "media":"image",
+                   "src":"/assets/images/Icon_001.svg"
+               },
+               "content":{
+                   "type":"basic",
+                   "header":"The butler is invisible",
+                   "subheader":"In-home AI for the masses",
+                   "copy":""
+               }
+            },
+            "back":{
+               
+               "bgImage":"/assets/images/Card_Background.jpg",
+               
+               "banner":{
+                   "media":null, 
+                   "src":""
+               },
+               "content":{
+                   "type":"basic",
+                   "header":"",
+                   "subheader":"",
+                   "copy":["In 2018, the average person can bark commands into their empty home – and fully expect those orders to be completed. Thank you, ‘Internet of Things’. The term was coined to describe the point at which more objects, appliances and devices were connected to the web than were individual people. This took a while. The first ‘smart refrigerator’ was launched in 2000, and failed (it cost US$20,000). But a ravenous market for smartphones and PCs got us to the tipping point in 2010.  Advances in voice recognition software enabled the first smartphone virtual assistant – Siri – on the iPhone 4S in 2011."]
+               } 
+            }
+       },
+       {
+            "front":{
+               "bgImage":"/assets/images/Card_Background.jpg",
+               "banner":{
+                   "media":"image",
+                   "src":"/assets/images/Icon_002.svg"
+               },
+               "content":{
+                   "type":"basic",
+                   "header":"Do not disturb sleeping driver",
+                   "subheader":"Autonomous cars are coming",
+                   "copy":""
+               }
+            },
+            "back":{
+               
+               "bgImage":"/assets/images/Card_Background.jpg",
+               
+               "banner":{
+                  
+               },
+               "content":{
+                   "type":"basic",
+                   "header":"",
+                   "subheader":"",
+                   "copy":["From Knight Rider’s cultured K.I.T.T. to Total Recall’s chirpy Johnny Cab, pop culture self-driving cars have always had personality. In reality, autonomous cars are already here – and they’re wilfully dull.  The likes of 400-tonne autonomous mining trucks, capable of following a precise route, every time, without growing bored or tired. On public roads, every mainstream marque is investing heavily in cars that will drive themselves; vehicles that will, at a minimum, free drivers from the banality of paying attention while commuting and markedly improve safety."]
+              }
+            }
+       }
+   ]
+   }

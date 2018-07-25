@@ -1,0 +1,56 @@
+.Card_Frame{
+
+    @include BMP($PrimaryColor,auto,0%) ;
+
+    .card-container {
+
+            height:580px; 
+
+            @include BMP($PrimaryColor,0,1px);
+            
+            position: relative; 
+            z-index: 1;
+            perspective: 1000px;
+
+
+            .card-body {
+                @include BMP(transparent,0,0px);
+            
+                width: 100%;
+                height: 100%;
+                border-top:1px solid rgba(255,255,255,0.2);
+                
+            }
+    } 
+}
+
+
+
+
+.Card_Frame:nth-child(1){
+    img.BannerImage{@include SVG(#FF0053, 50%, 10% 25%);}
+    .Button_Action_FlipMe:hover{@include SWINGBTN(#FF0053, $Quinary); }
+}
+
+.Card_Frame:nth-child(2){
+    img.BannerImage{ @include SVG(#00E4FF, 70%, 20% 15% 0 );}
+    .Button_Action_FlipMe:hover{@include SWINGBTN(#00E4FF,$Quinary); }
+}
+
+.Card_Frame:nth-child(3){
+    img.BannerImage{ @include SVG(#FF9F00, 70%, 20% 15% 0 ); }
+    .Button_Action_FlipMe:hover{@include SWINGBTN(#FF9F00,$Quinary); }
+}
+
+.Card_Frame:nth-child(4){
+    img.BannerImage{ @include SVG(#00FF81, 70%, 20% 15% 0 ); }
+    .Button_Action_FlipMe:hover{@include SWINGBTN(#00FF81,$Quinary); }
+}
+.Card_Frame:nth-child(5){
+    img.BannerImage{@include SVG(#FFF13F, 40%, 20% 30%);}
+    .Button_Action_FlipMe:hover{@include SWINGBTN(#FFF13F,$Quinary); }
+}
+.Card_Frame:nth-child(6){
+    img.BannerImage{ @include SVG(#F89CFF, 70%, 20% 15% 0 ); }
+    .Button_Action_FlipMe:hover{@include SWINGBTN(#F89CFF,$Quinary); }
+}

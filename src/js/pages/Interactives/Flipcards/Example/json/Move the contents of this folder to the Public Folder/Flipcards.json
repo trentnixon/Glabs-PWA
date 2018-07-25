@@ -1,0 +1,186 @@
+{
+    "Cards":[
+        {
+            "front":{
+               "bgImage":"/assets/images/Card_Background.jpg",
+               "banner":{
+                   "media":"image",
+                   "src":"/assets/images/Icon_001.svg"
+               },
+               "content":{
+                   "type":"basic",
+                   "header":"The butler is invisible",
+                   "subheader":"In-home AI for the masses",
+                   "copy":""
+               }
+            },
+            "back":{
+               
+               "bgImage":"/assets/images/Card_Background.jpg",
+               
+               "banner":{
+                   "media":null, 
+                   "src":""
+               },
+               "content":{
+                   "type":"basic",
+                   "header":"",
+                   "subheader":"",
+                   "copy":["In 2018, the average person can bark commands into their empty home – and fully expect those orders to be completed. Thank you, ‘Internet of Things’. The term was coined to describe the point at which more objects, appliances and devices were connected to the web than were individual people. This took a while. The first ‘smart refrigerator’ was launched in 2000, and failed (it cost US$20,000). But a ravenous market for smartphones and PCs got us to the tipping point in 2010.  Advances in voice recognition software enabled the first smartphone virtual assistant – Siri – on the iPhone 4S in 2011. Today, smart speakers such as Google Home and Apple HomePod act as digital PAs in many households. <a href=\"https://www.mini.com.au/connected/stories/?story=hello-siri-meets-mini\" target=\"_blank\">Next-level connectivity even travels with us in our cars,</a> with a range of intelligent services and apps enabled by platforms such as MINI Connected. Meaning we can bark orders – and get answers – wherever we go."]
+               } 
+            }
+       },
+       {
+            "front":{
+               "bgImage":"/assets/images/Card_Background.jpg",
+               "banner":{
+                   "media":"image",
+                   "src":"/assets/images/Icon_002.svg"
+               },
+               "content":{
+                   "type":"basic",
+                   "header":"Do not disturb sleeping driver",
+                   "subheader":"Autonomous cars are coming",
+                   "copy":""
+               }
+            },
+            "back":{
+               
+               "bgImage":"/assets/images/Card_Background.jpg",
+               
+               "banner":{
+                  
+               },
+               "content":{
+                   "type":"basic",
+                   "header":"",
+                   "subheader":"",
+                   "copy":["From Knight Rider’s cultured K.I.T.T. to Total Recall’s chirpy Johnny Cab, pop culture self-driving cars have always had personality. In reality, autonomous cars are already here – and they’re wilfully dull.  The likes of 400-tonne autonomous mining trucks, capable of following a precise route, every time, without growing bored or tired. On public roads, every mainstream marque is investing heavily in cars that will drive themselves; vehicles that will, at a minimum, free drivers from the banality of paying attention while commuting and markedly improve safety.",
+                       "Self-driving cars will revolutionise ownership. Rather than buy your own, you might tap an app to book a shared ownership model such as  VISION NEXT 100.  <a href=\"https://www.mini.com.au/mini-news/vision-next/\" target=\"_blank\" >MINI’s futuristic concept car</a> has been envisaged to take its ‘driver’ to their destination, then &quot;drive autonomously to a service hub, before zipping off to meet another driver.&quot; All the K.I.T.T. None of the Hasselhoff."]
+              }
+            }
+       },
+       {
+            "front":{
+               "bgImage":"/assets/images/Card_Background.jpg",
+               "banner":{
+                   "media":"image",
+                   "src":"/assets/images/Icon_003.svg"
+               },
+               "content":{
+                   "type":"basic",
+                   "header":"Find yourself (from space)",
+                   "subheader":"GPS: mapping our world",
+                   "copy":""
+               }
+            },
+            "back":{
+               
+               "bgImage":"/assets/images/Card_Background.jpg",
+               
+               "banner":{
+                   "media":null, 
+                   "src":""
+               },
+               "content":{
+                   "type":"basic",
+                   "header":"",
+                   "subheader":"",
+                   "copy":[
+                       "&quot;You’re sure the homing beacon is secure aboard their ship?&quot; said Grand Moff Tarkin in the original <em>Star Wars</em>.  &quot;I’m taking an awful risk, Vader. This had better work.&quot;",
+                       "Spoiler alert: it did. The escaping Millennium Falcon led Vader’s goons right to the rebels’ base. Back on Earth, however, in 1977, the sort of global positioning systems we now use remained in their infancy.  Physicists realised the potential of tracking satellites via radio signals while observing Sputnik in 1957. But it’d take decades, investment by DARPA, the US military’s skunkworks lab, and a 1996 directive by Bill Clinton, for sat-nav, as we know it, to be properly integrated into the public sphere.  Today it’s ubiquitous. Cutting-edge systems such as MINI Connected will not only tell you where you are, but can <a target=\"_blank\" href=\"https://www.mini.com.au/connected/stories/?story=arriving-on-time-just-got-a-whole-lot-easier\">augment your travel with real-time traffic information</a> or, say, dining opportunities along your route. Next stop: the Mos Eisley Cantina."]
+               }
+            }
+       },
+       {
+            "front":{
+               "bgImage":"/assets/images/Card_Background.jpg",
+               "banner":{
+                   "media":"image",
+                   "src":"/assets/images/Icon_004.svg"
+               },
+               "content":{
+                   "type":"basic",
+                   "header":"The end of silence",
+                   "subheader":"Personal drones hit the mainstream",
+                   "copy":""
+               }
+            },
+            "back":{
+               
+               "bgImage":"/assets/images/Card_Background.jpg",
+              
+               "banner":{
+                   "media":null, 
+                   "src":""
+               },
+               "content":{
+                   "type":"basic",
+                   "header":"",
+                   "subheader":"",
+                   "copy":["Kodak engineer Steve Sasson infamously presented his bosses with a rudimentary digital camera he’d built in 1975. But with a business model predicated on selling film, they buried it. Sasson kept at it, and in 1989, gave Kodak the equivalent of a modern DSLR.  &quot;That camera never saw the light of day,&quot; said Sasson.  Kodak filed for bankruptcy in 2012, but digital continued to evolve. The first mobile phone, with a built-in 0.35-megapixel camera, was released in 2000. A decade later, thanks to a Moore’s Law-style evolution, where performance ramps up even as size and price plummet, came a synchronicity: personal quadcopter drones were finally robust enough to carry small but powerful cameras. Today’s next step, says tech pioneer Chris Anderson, is &quot;personal droid&quot; that follows you automatically, filming your every move.  &quot;If you’re into extreme sports … you’re always looking for better ways to document your exploits,&quot; says Anderson. &quot;The best vantage point to do this from is the air.&quot;"]
+              }
+            }
+       },
+       {
+            "front":{
+               "bgImage":"/assets/images/Card_Background.jpg",
+               "banner":{
+                   "media":"image",
+                   "src":"/assets/images/Icon_005.svg"
+               },
+               "content":{
+                   "type":"basic",
+                   "header":"Welcome to radio you",
+                   "subheader":"Music devices and streaming media",
+                   "copy":""
+               }
+            },
+            "back":{
+               
+               "bgImage":"/assets/images/Card_Background.jpg",
+               
+               "banner":{
+                   "media":null, 
+                   "src":""
+               },
+               "content":{
+                   "type":"basic",
+                   "header":"",
+                   "subheader":"",
+                   "copy":["The iconic Walkman went on sale in July 1979. Sony’s Masaru Ibuka, had sought a way to listen to opera on international flights. It cost A$700 in today’s terms.  After a month, Sony had sold just 3,000 of them, and resorted to approaching pedestrians in the streets of Tokyo. Eventual sales reached 400 million. The iPod, its name inspired by 2001: A Space Odyssey’s Extravehicular Activity Pods, would arrive – coincidentally – in 2001. Its tagline was ‘1,000 songs in your pocket’. Today, music streaming services such as Spotify have freed us entirely from the tyranny of storage. <a href=\"https://www.mini.com.au/connected/stories/?story=now-that-is-music-to-my-ears\" target=\"_blank\"> In the car, systems such as MINI Connected CarPlay</a> can perform the same role, responding to spoken requests via Siri or control your Spotify music. In-home, entertainment streaming providers such as Netflix and Stan have all-but defined ‘disruptive’. Netflix with 125 million subscribers will stream US$8B worth of original content this year. That’s around 700 original series worldwide."]
+              }
+            }
+       },
+       {
+            "front":{
+               "bgImage":"/assets/images/Card_Background.jpg",
+               "banner":{
+                   "media":"image",
+                   "src":"/assets/images/Icon_006.svg"
+               },
+               "content":{
+                   "type":"basic",
+                   "header":"The rise of the machines",
+                   "subheader":"Robotics enters the future",
+                   "copy":""
+               }
+            },
+            "back":{
+               
+               "bgImage":"/assets/images/Card_Background.jpg",
+             
+               "banner":{
+                   "media":null, 
+                   "src":""
+               },
+               "content":{
+                   "type":"basic",
+                   "header":"",
+                   "subheader":"",
+                   "copy":["The term ‘robot’ was coined by Czech writer Karel Čapek. His 1921 play, R.U.R., features an engineer who creates a type of android-style ’bot … which rises up to wipe out humanity. Fortunately, this sci-fi trope seems a while off yet. The first industrial robots went online in the early 1960s, doing the heavy lifting on automotive production lines. The same decade saw considerable investment in artificial intelligence and robot dexterity; the former increasing autonomy, the latter eventually realising possibilities as varied as surgery, bomb disposal and assisting the disabled.  In 2017, one of the world’s most advanced, partial-AI humanoid robots, ‘Sophia’, visited New Zealand. She was described as “a social humanoid robot” by her co-creator, roboticist Ben Goertzel – and “a bit too human” by at least one scared local. Goertzel’s vision is to create a compassionate AI, “and have it grow to become more intelligent, and more benevolent and compassionate than human beings,” he said."]
+              }
+            }
+       }
+   ]
+   }

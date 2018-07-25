@@ -1,0 +1,7 @@
+.Side-Banner{
+    @include BMP(transparent,0,1px);
+    img{
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;  
+    }
+}

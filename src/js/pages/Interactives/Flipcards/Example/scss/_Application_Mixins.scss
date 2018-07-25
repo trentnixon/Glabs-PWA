@@ -1,0 +1,15 @@
+// Bespoke for Mini 
+// Each Hero image requires a unique DS and H/W
+@mixin SVG($DS, $width, $margin) {
+    width: $width;
+    margin: $margin;
+    -webkit-filter: drop-shadow(1px 1px 3px $DS);
+    filter: drop-shadow(1px 1px 3px $DS);
+  
+  } 
+  
+  @mixin SWINGBTN($color, $Quinary) {
+    border-color: $color;
+    color: $color;
+    background-color: $Quinary;
+  }

@@ -1,0 +1,30 @@
+
+            h1{  
+                @include FONT($FontLargeSize,$FontLargeLine,$FontLargeWeight,0) ; 
+                font-family: $FontFamilyHeader;
+                color:$PrimaryHColor;
+        }
+               
+
+            h2{  
+                
+                font-family: $FontFamilyHeader;
+                margin: 0 0 15px 0;
+                padding-top: 1.2em;
+                @include FONT(3.2em,1em,800,0) ; 
+                color:$PrimaryHColor;
+            }
+
+            h3{
+                @include FONT(1.6em,$FontMedLine,$FontMedWeight,0) ;
+                font-family: $FontFamilyBody;
+                margin: 10px 0 0 0;
+               
+                color:$PrimaryHColor;
+            }
+                
+
+            p{ 
+                @include FONT($FontSmallSize,$FontSmallLine,$FontSmallWeight,0) ; 
+                color:$PrimaryHColor;
+            }
